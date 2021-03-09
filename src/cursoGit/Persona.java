@@ -2,10 +2,9 @@ package cursoGit;
 
 public class Persona {
 	
-  
-	
 		private String nombre;
 		private int edad;
+		
 		public Persona(String nombre, int edad) {
 			super();
 			this.nombre = nombre;
@@ -25,9 +24,7 @@ public class Persona {
 		}
 		@Override
 		public String toString() {
-			return "Persona [nombre=" + nombre + ", edad=" + edad + ", getNombre()=" + getNombre() + ", getEdad()="
-					+ getEdad() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
-					+ super.toString() + "]";
+			return "Persona [nombre=" + nombre + ", edad=" + edad + "]";
 		}
 		
 	
