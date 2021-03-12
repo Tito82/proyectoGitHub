@@ -18,6 +18,16 @@ public class Alumno extends Persona{
 		public String getMatricula() {
 			return matricula;
 		}
+		
+		public boolean comprobarEdad() {
+			if(this.getEdad()>=18) {
+				return true;
+			}else {
+				return false;
+			}
+		
+			
+		}
 		public void setMatricula(String matricula) {
 			this.matricula = matricula;
 		}
